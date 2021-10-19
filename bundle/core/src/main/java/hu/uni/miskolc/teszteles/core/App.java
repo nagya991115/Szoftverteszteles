@@ -1,4 +1,4 @@
-package hu.uni.miskolc.teszteles.bundle;
+package hu.uni.miskolc.teszteles.core;
 
 /**
  * Hello world!
