@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
+import hu.uni.miskolc.teszteles.core.enums.Kivitel;
+import hu.uni.miskolc.teszteles.core.enums.Uzemanyag;
+import hu.uni.miskolc.teszteles.core.enums.Valto;
 import hu.uni.miskolc.teszteles.core.exceptions.AjtokSzamaNemMegfelelo;
 import hu.uni.miskolc.teszteles.core.exceptions.GyartasiIdoNemMegfelelo;
 import hu.uni.miskolc.teszteles.core.exceptions.RendszamNemMegfelelo;
@@ -19,18 +22,18 @@ public class Auto implements HanggalRendelkezo {
 		hengerurtartalomErtekek.put("1.6", 1560);
 	}
 
-	private String gyarto;
-	private String modell;
-	private Integer hengerurtartalom;
-	private String rendszam;
-	private Uzemanyag uzemanyag;
-	private LocalDate gyartasiIdo;
-	private String szinHex;
-	private boolean korozott;
-	private String forgalmiSzama;
-	private Valto valto;
-	private Kivitel kivitel;
-	private int ajtokSzama;
+	protected String gyarto;
+	protected String modell;
+	protected Integer hengerurtartalom;
+	protected String rendszam;
+	protected Uzemanyag uzemanyag;
+	protected LocalDate gyartasiIdo;
+	protected String szinHex;
+	protected boolean korozott;
+	protected String forgalmiSzama;
+	protected Valto valto;
+	protected Kivitel kivitel;
+	protected int ajtokSzama;
 
 	@Override
 	public void dudal() {
